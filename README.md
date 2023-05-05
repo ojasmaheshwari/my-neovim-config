@@ -9,3 +9,6 @@ Dotfiles for my pretty neovim config
 
 # Code diagnostics and completion
 ![diagnostics](https://github.com/ojasmaheshwari/my-neovim-config/blob/main/nvim_sc_lsp_2.png?raw=true)
+
+# Code diagnostics and completion
+![fuzzy finding](https://github.com/ojasmaheshwari/my-neovim-config/blob/main/nvim_sc_fzf.png?raw=true)
