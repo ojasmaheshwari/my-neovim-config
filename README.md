@@ -14,4 +14,4 @@ Dotfiles for my pretty neovim config
 ![fuzzy finding](https://github.com/ojasmaheshwari/my-neovim-config/blob/main/nvim_sc_fzf.png?raw=true)
 
 # Fuzzy finding!!!!
-![ripgrep](https://github.com/ojasmaheshwari/my-neovim-config/blob/main/nvim_sc_rg?raw=true)
+![ripgrep](https://github.com/ojasmaheshwari/my-neovim-config/blob/main/nvim_sc_rg.png?raw=true)
