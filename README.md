@@ -8,4 +8,4 @@ Dotfiles for my pretty neovim config
 ![LSP](https://github.com/ojasmaheshwari/my-neovim-config/blob/main/nvim_sc_lsp.png?raw=true)
 
 # Code diagnostics and completion
-![diagnostics](https://github.com/ojasmaheshwari/my-neovim-config/blob/main/nvim_sc_lsp2.png?raw=true)
+![diagnostics](https://github.com/ojasmaheshwari/my-neovim-config/blob/main/nvim_sc_lsp_2.png?raw=true)
