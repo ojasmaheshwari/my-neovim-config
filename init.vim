@@ -1,11 +1,13 @@
-" Loads all plugins via Packer
-lua require('plugins')
+"Config by Ojas Maheshwari, CC: 2023-Present
 
-" Loads all plugins via vim-plug
+"Loads all plugins via vim-plug
 runtime vim/plug.vim
 
 " NvimTree loaded early to maximize speed for commands like "vim ."
 lua require('nvimtree')
+
+" Setup up lualine
+lua require('_lualine')
 
 " Load general settings
 runtime vim/settings/general.vim
@@ -16,12 +18,14 @@ runtime vim/settings/coc.vim
 " Configure treesitter (language pack)
 lua require('treesitter')
 
-" Configure lualine (status line) and bufferline
-lua require('lualine')
-lua require('bufferline')
+" Configure dashboard
+lua require('_dashboard')
 
 " Loads fzf (fuzzy finder) mappings
 runtime vim/mappings/fzf.vim
+
+" Loads tagbar
+runtime vim/mappings/tagbar.vim
 
 " Loads NvimTree (File Explorer) mappings
 runtime vim/mappings/nvimtree.vim

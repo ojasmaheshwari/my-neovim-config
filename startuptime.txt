@@ -1,0 +1,238 @@
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.054  000.054: --- NVIM STARTING ---
+000.412  000.358: event init
+000.762  000.349: early init
+000.999  000.237: locale set
+001.168  000.170: init first window
+002.529  001.361: inits 1
+002.599  000.069: window checked
+002.616  000.017: parsing arguments
+004.515  000.213  000.213: require('vim.shared')
+005.112  000.208  000.208: require('vim._meta')
+005.125  000.589  000.381: require('vim._editor')
+005.133  001.033  000.231: require('vim._init_packages')
+005.144  001.495: init lua interpreter
+005.649  000.505: expanding arguments
+005.934  000.285: inits 2
+007.374  001.440: init highlight
+007.384  000.010: waiting for UI
+008.320  000.935: done waiting for UI
+008.359  000.040: clear screen
+009.221  000.862: init default mappings & autocommands
+012.009  000.246  000.246: sourcing /usr/share/nvim/runtime/ftplugin.vim
+012.388  000.170  000.170: sourcing /usr/share/nvim/runtime/indent.vim
+012.750  000.043  000.043: sourcing /usr/share/nvim/archlinux.vim
+012.768  000.149  000.105: sourcing /etc/xdg/nvim/sysinit.vim
+020.285  000.767  000.767: require('packer.util')
+020.541  004.932  004.165: require('packer')
+023.474  000.801  000.801: require('packer.log')
+023.493  001.397  000.597: require('packer.async')
+024.679  000.374  000.374: require('packer.result')
+024.697  001.195  000.821: require('packer.jobs')
+024.736  004.035  001.443: require('packer.plugin_utils')
+025.699  000.905  000.905: require('packer.snapshot')
+027.914  014.982  005.111: require('plugins')
+036.276  007.982  007.982: sourcing /home/epicman/.local/share/nvim/site/autoload/plug.vim
+055.213  000.089  000.089: sourcing /usr/share/vim/vimfiles/ftdetect/meson.vim
+055.828  001.596  001.507: sourcing /usr/share/nvim/runtime/filetype.lua
+056.175  000.035  000.035: sourcing /usr/share/nvim/runtime/ftplugin.vim
+056.492  000.030  000.030: sourcing /usr/share/nvim/runtime/indent.vim
+057.236  000.270  000.270: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+057.507  000.883  000.613: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+057.541  029.470  018.944: sourcing /home/epicman/.config/nvim/vim/plug.vim
+061.421  000.340  000.340: require('nvim-tree.notify')
+061.445  000.791  000.451: require('nvim-tree.events')
+062.851  000.349  000.349: require('nvim-tree.log')
+064.158  000.304  000.304: require('nvim-tree.iterators.node-iterator')
+064.265  001.407  001.103: require('nvim-tree.utils')
+064.762  000.490  000.490: require('nvim-tree.git.utils')
+065.456  000.688  000.688: require('nvim-tree.git.runner')
+066.168  000.705  000.705: require('nvim-tree.watcher')
+066.561  000.386  000.386: require('nvim-tree.explorer.node')
+066.574  004.761  000.735: require('nvim-tree.git')
+066.907  000.328  000.328: require('nvim-tree.explorer.watch')
+067.554  000.307  000.307: require('nvim-tree.explorer.node-builders')
+068.007  000.446  000.446: require('nvim-tree.explorer.sorters')
+068.406  000.392  000.392: require('nvim-tree.explorer.filters')
+069.807  000.952  000.952: require('nvim-tree.view')
+069.818  001.405  000.454: require('nvim-tree.live-filter')
+069.834  002.920  000.370: require('nvim-tree.explorer.explore')
+070.310  000.470  000.470: require('nvim-tree.explorer.reload')
+070.319  008.869  000.390: require('nvim-tree.explorer')
+070.327  009.954  000.294: require('nvim-tree.core')
+070.794  000.462  000.462: require('nvim-tree.diagnostics')
+071.262  000.228  000.228: require('nvim-tree.modified')
+071.270  000.470  000.242: require('nvim-tree.renderer.components.modified')
+071.630  000.355  000.355: require('nvim-tree.renderer.components.padding')
+071.935  000.299  000.299: require('nvim-tree.renderer.components.icons')
+072.282  000.341  000.341: require('nvim-tree.renderer.components.full-name')
+072.742  000.455  000.455: require('nvim-tree.renderer.components.git')
+073.476  000.728  000.728: require('nvim-tree.renderer.builder')
+073.810  000.327  000.327: require('nvim-tree.marks')
+073.837  013.914  000.522: require('nvim-tree.renderer')
+073.849  014.430  000.516: require('nvim-tree.lib')
+074.289  000.389  000.389: require('nvim-tree.colors')
+076.759  000.305  000.305: require('nvim-tree.actions.finders.find-file')
+076.769  000.563  000.259: require('nvim-tree.actions.tree.open')
+077.046  000.271  000.271: require('nvim-tree.actions.tree.toggle')
+077.368  000.312  000.312: require('nvim-tree.actions.reloaders.reloaders')
+077.602  000.225  000.225: require('nvim-tree.actions.root.dir-up')
+077.896  000.286  000.286: require('nvim-tree.actions.tree.find-file')
+078.232  000.324  000.324: require('nvim-tree.actions.finders.search-node')
+078.531  000.292  000.292: require('nvim-tree.actions.tree-modifiers.collapse-all')
+078.895  000.358  000.358: require('nvim-tree.actions.tree-modifiers.expand-all')
+079.153  000.252  000.252: require('nvim-tree.actions.tree-modifiers.toggles')
+080.215  000.545  000.545: require('nvim-tree.keymap')
+080.226  001.062  000.517: require('nvim-tree.help')
+080.621  000.388  000.388: require('nvim-tree.actions.fs.create-file')
+081.049  000.421  000.421: require('nvim-tree.actions.fs.remove-file')
+081.465  000.410  000.410: require('nvim-tree.actions.fs.trash')
+081.855  000.383  000.383: require('nvim-tree.actions.fs.rename-file')
+082.611  000.746  000.746: require('nvim-tree.actions.fs.copy-paste')
+082.998  000.355  000.355: require('nvim-tree.actions.node.file-popup')
+083.230  000.225  000.225: require('nvim-tree.actions.node.run-command')
+083.562  000.325  000.325: require('nvim-tree.actions.node.system-open')
+083.833  000.264  000.264: require('nvim-tree.actions.moves.sibling')
+084.103  000.260  000.260: require('nvim-tree.actions.moves.parent')
+084.393  000.282  000.282: require('nvim-tree.actions.moves.item')
+084.719  000.305  000.305: require('nvim-tree.marks.bulk-move')
+086.071  001.023  001.023: require('nvim-tree.actions.node.open-file')
+086.080  001.354  000.332: require('nvim-tree.marks.navigation')
+086.090  010.487  000.823: require('nvim-tree.api')
+086.255  011.603  001.115: require('nvim-tree.keymap-legacy')
+086.339  012.044  000.441: require('nvim-tree.commands')
+086.795  000.450  000.450: require('nvim-tree.actions.root.change-dir')
+087.088  000.286  000.286: require('nvim-tree.legacy')
+089.543  000.020  000.020: require('vim.F')
+089.655  002.545  002.525: require('vim.diagnostic')
+089.697  032.003  001.858: require('nvim-tree')
+090.760  000.237  000.237: require('nvim-tree.actions')
+093.801  002.436  002.436: require('nvim-web-devicons')
+100.819  043.247  008.570: require('nvimtree')
+102.689  000.153  000.153: require('dracula.palette')
+102.699  000.547  000.394: require('dracula')
+103.406  000.701  000.701: require('vim.version')
+109.842  001.689  001.689: require('dracula.groups')
+111.478  009.375  006.438: sourcing /home/epicman/.local/share/nvim/plugged/dracula.nvim/colors/dracula.lua
+112.770  011.828  002.453: sourcing /home/epicman/.config/nvim/vim/settings/general.vim
+113.721  000.828  000.828: sourcing /home/epicman/.config/nvim/vim/settings/coc.vim
+120.670  000.376  000.376: require('vim.treesitter.language')
+120.702  001.458  001.082: require('vim.treesitter.query')
+121.093  000.385  000.385: require('vim.treesitter._range')
+121.114  003.282  001.439: require('vim.treesitter.languagetree')
+121.133  004.758  001.476: require('vim.treesitter')
+121.144  004.971  000.213: require('nvim-treesitter.compat')
+124.805  002.663  002.663: require('nvim-treesitter.parsers')
+125.205  000.393  000.393: require('nvim-treesitter.utils')
+125.220  003.739  000.683: require('nvim-treesitter.ts_utils')
+125.232  004.083  000.344: require('nvim-treesitter.tsrange')
+125.413  000.176  000.176: require('nvim-treesitter.caching')
+125.437  010.416  001.186: require('nvim-treesitter.query')
+125.468  011.540  001.124: require('nvim-treesitter.configs')
+127.011  000.354  000.354: require('nvim-treesitter.info')
+127.510  000.493  000.493: require('nvim-treesitter.shell_command_selectors')
+127.555  002.058  001.211: require('nvim-treesitter.install')
+129.244  015.482  001.884: require('treesitter')
+130.667  000.328  000.328: require('lualine_require')
+131.315  002.034  001.706: require('lualine')
+132.138  000.192  000.192: require('bufferline.lazy')
+133.016  000.223  000.223: require('bufferline.constants')
+133.038  000.882  000.659: require('bufferline.commands')
+134.194  001.145  001.145: require('bufferline.config')
+134.209  002.815  000.597: require('bufferline')
+134.374  000.081  000.081: sourcing /home/epicman/.config/nvim/vim/mappings/fzf.vim
+134.483  000.036  000.036: sourcing /home/epicman/.config/nvim/vim/mappings/nvimtree.vim
+134.581  000.028  000.028: sourcing /home/epicman/.config/nvim/vim/mappings/general.vim
+135.179  000.558  000.558: require('bufferline.utils')
+139.432  001.663  001.663: require('bufferline.groups')
+139.943  000.404  000.404: require('bufferline.colors')
+140.984  000.627  000.627: require('bufferline.highlights')
+143.160  000.024  000.024: require('vim.keymap')
+145.983  003.165  003.141: require('bufferline.hover')
+148.094  001.698  001.698: require('bufferline.ui')
+156.332  000.364  000.364: require('lualine.utils.mode')
+162.100  149.219  019.910: sourcing /home/epicman/.config/nvim/init.vim
+162.119  003.114: sourcing vimrc file(s)
+165.515  000.343  000.343: sourcing /home/epicman/.local/share/nvim/plugged/coc.nvim/autoload/coc/rpc.vim
+166.620  000.791  000.791: sourcing /home/epicman/.local/share/nvim/plugged/coc.nvim/autoload/coc/util.vim
+167.593  000.490  000.490: sourcing /home/epicman/.local/share/nvim/plugged/coc.nvim/autoload/coc/client.vim
+173.540  010.103  008.478: sourcing /home/epicman/.local/share/nvim/plugged/coc.nvim/plugin/coc.vim
+175.519  001.604  001.604: sourcing /home/epicman/.local/share/nvim/plugged/fzf/plugin/fzf.vim
+178.137  002.298  002.298: sourcing /home/epicman/.local/share/nvim/plugged/fzf.vim/plugin/fzf.vim
+178.648  000.119  000.119: sourcing /home/epicman/.local/share/nvim/plugged/nvim-web-devicons/plugin/nvim-web-devicons.vim
+179.230  000.139  000.139: sourcing /home/epicman/.local/share/nvim/plugged/vim-transparent/plugin/background.vim
+179.560  000.093  000.093: sourcing /home/epicman/.local/share/nvim/plugged/plenary.nvim/plugin/plenary.vim
+180.680  000.700  000.700: sourcing /home/epicman/.local/share/nvim/plugged/vim-startuptime/plugin/startuptime.vim
+182.192  000.570  000.570: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+182.294  000.024  000.024: sourcing /usr/share/nvim/runtime/plugin/health.vim
+184.202  000.607  000.607: sourcing /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+184.515  002.162  001.556: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+185.024  000.445  000.445: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+185.122  000.048  000.048: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+185.604  000.022  000.022: sourcing /home/epicman/.local/share/nvim/rplugin.vim
+185.626  000.443  000.421: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+185.920  000.246  000.246: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+186.060  000.065  000.065: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+186.496  000.373  000.373: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+186.790  000.223  000.223: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+186.903  000.051  000.051: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+187.488  000.523  000.523: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+187.848  000.040  000.040: sourcing /usr/share/vim/vimfiles/plugin/fzf.vim
+189.974  001.913  001.913: sourcing /home/epicman/.config/nvim/plugin/packer_compiled.lua
+192.955  000.269  000.269: require('nvim-treesitter.statusline')
+193.587  000.613  000.613: require('nvim-treesitter.query_predicates')
+193.599  002.708  001.826: require('nvim-treesitter')
+194.660  003.936  001.228: sourcing /home/epicman/.local/share/nvim/plugged/nvim-treesitter/plugin/nvim-treesitter.lua
+196.545  001.257  001.257: sourcing /home/epicman/.local/share/nvim/plugged/telescope.nvim/plugin/telescope.lua
+197.870  000.205  000.205: sourcing /usr/share/nvim/runtime/plugin/editorconfig.lua
+198.103  000.168  000.168: sourcing /usr/share/nvim/runtime/plugin/man.lua
+198.289  000.130  000.130: sourcing /usr/share/nvim/runtime/plugin/nvim.lua
+198.529  008.530: loading rtp plugins
+199.129  000.600: loading packages
+199.139  000.009: loading after plugins
+199.186  000.047: inits 3
+205.186  006.000: reading ShaDa
+205.848  000.662: opening buffers
+206.492  000.467  000.467: require('bufferline.state')
+206.723  000.408: BufEnter autocommands
+206.730  000.008: editing files in windows
+208.956  001.011  001.011: sourcing /home/epicman/.local/share/nvim/plugged/coc.nvim/autoload/coc/highlight.vim
+210.865  001.316  001.316: sourcing /home/epicman/.local/share/nvim/plugged/coc.nvim/autoload/coc/color.vim
+228.078  000.240  000.240: sourcing /home/epicman/.local/share/nvim/plugged/vim-transparent/autoload/background.vim
+236.609  000.754  000.754: require('packer.load')
+237.696  000.180  000.180: sourcing /home/epicman/.local/share/nvim/site/pack/packer/opt/dashboard-nvim/plugin/dashboard.lua
+240.921  000.601  000.601: require('dashboard.utils')
+240.950  002.966  002.365: require('dashboard')
+241.938  000.052  000.052: sourcing /home/epicman/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons/plugin/nvim-web-devicons.vim
+265.926  052.677: VimEnter autocommands
+274.272  000.313  000.313: require('nvim-treesitter.highlight')
+276.286  001.206  001.206: require('dashboard.theme.hyper')
+276.985  009.541: UIEnter autocommands
+276.995  000.010: before starting main loop
+277.606  000.611: first screen update
+277.611  000.005: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.044  000.044: --- NVIM STARTING ---
+000.436  000.391: event init
+000.789  000.353: early init
+001.025  000.236: locale set
+001.228  000.203: init first window
+002.628  001.400: inits 1
+002.660  000.033: window checked
+002.672  000.012: parsing arguments
+004.749  000.351  000.351: require('vim.shared')
+005.288  000.208  000.208: require('vim._meta')
+005.301  000.530  000.322: require('vim._editor')
+005.310  001.033  000.152: require('vim._init_packages')
+005.319  001.614: init lua interpreter
+007.615  002.295: expanding arguments
+007.876  000.261: inits 2
+009.294  001.418: init highlight
