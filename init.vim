@@ -9,6 +9,9 @@ lua require('nvimtree')
 " Setup up lualine
 lua require('_lualine')
 
+" Setup bufferline
+lua require('_bufferline')
+
 " Load general settings
 runtime vim/settings/general.vim
 
@@ -24,7 +27,10 @@ lua require('_dashboard')
 " Loads fzf (fuzzy finder) mappings
 runtime vim/mappings/fzf.vim
 
-" Loads tagbar
+" Loads snippets mappings
+runtime vim/mappings/snippets.vim
+
+"Loads tagbar
 runtime vim/mappings/tagbar.vim
 
 " Loads NvimTree (File Explorer) mappings
@@ -32,12 +38,3 @@ runtime vim/mappings/nvimtree.vim
 
 " Loads general personalized mappings
 runtime vim/mappings/general.vim
-
-lua << END
-require("bufferline").setup{
-	options = {
-		separator_style = 'padded_slant'
-	}
-}
-require('lualine').setup ()
-END
