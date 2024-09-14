@@ -1,11 +1,11 @@
 let mapleader = ' '
 set nu rnu
-set tabstop=4
+set tabstop=2
 set softtabstop=0 noexpandtab
-set shiftwidth=4
+set shiftwidth=2
 
 " Colorscheme settings
 set termguicolors
-set background=dark
+set background=light
 colorscheme gruvbox
 

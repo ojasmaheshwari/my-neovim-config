@@ -6,14 +6,14 @@ runtime vim/plug.vim
 " NvimTree loaded early to maximize speed for commands like "vim ."
 lua require('nvimtree')
 
-" Setup up lualine
-lua require('_lualine')
-
 " Setup bufferline
 lua require('_bufferline')
 
 " Load general settings
 runtime vim/settings/general.vim
+
+" Setup up lualine
+lua require('_lualine')
 
 " Load coc (Conqueror of Completion LSP) settings and keymappings
 runtime vim/settings/coc.vim
@@ -38,3 +38,8 @@ runtime vim/mappings/nvimtree.vim
 
 " Loads general personalized mappings
 runtime vim/mappings/general.vim
+
+lua require('_telescope')
+set termguicolors
+set background=light
+colorscheme gruvbox
