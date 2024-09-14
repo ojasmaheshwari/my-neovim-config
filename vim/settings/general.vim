@@ -7,5 +7,5 @@ set shiftwidth=4
 " Colorscheme settings
 set termguicolors
 set background=dark
-set guicursor=n-v-c-i:block
-colorscheme dracula
+colorscheme gruvbox
+

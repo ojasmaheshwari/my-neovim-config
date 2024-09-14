@@ -9,7 +9,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'Mofiqul/dracula.nvim'
 Plug 'tribela/vim-transparent'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
+Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'akinsho/bufferline.nvim', { 'tag': '*' }
 Plug 'nvim-tree/nvim-tree.lua', {'on': 'NvimTreeToggle'}
@@ -20,4 +20,5 @@ Plug 'mg979/vim-visual-multi'
 Plug 'preservim/tagbar'
 " Plug 'romgrk/barbar.nvim'
 Plug 'tpope/vim-commentary'
+Plug 'ellisonleao/gruvbox.nvim'
 call plug#end()
