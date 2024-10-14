@@ -2,7 +2,11 @@
  "inlayHint.enable": false,
 "coc.preferences.formatOnSaveFiletypes": [
   "rust",
-  "cpp"
+  "cpp",
+	"html",
+	"css",
+	"javascript"
 ],
 "snippets.ultisnips.pythonPrompt": false,
+"typescript.preferences.importModuleSpecifierEnding": "js",
 }

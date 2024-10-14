@@ -9,6 +9,9 @@ lua require('nvimtree')
 " Setup bufferline
 lua require('_bufferline')
 
+" Setup CompetiTest
+lua require('_competitest')
+
 " Load general settings
 runtime vim/settings/general.vim
 
@@ -39,7 +42,7 @@ runtime vim/mappings/nvimtree.vim
 " Loads general personalized mappings
 runtime vim/mappings/general.vim
 
-lua require('_telescope')
-set termguicolors
-set background=light
-colorscheme gruvbox
+" lua require('_telescope')
+" set termguicolors
+" set background=light
+" colorscheme gruvbox

@@ -20,4 +20,8 @@ Plug 'preservim/tagbar'
 " Plug 'romgrk/barbar.nvim'
 Plug 'tpope/vim-commentary'
 Plug 'ellisonleao/gruvbox.nvim'
+Plug 'MunifTanjim/nui.nvim'        " it's a dependency
+Plug 'xeluxee/competitest.nvim'
+Plug 'tribela/vim-transparent'
+Plug 'tpope/vim-fugitive'
 call plug#end()

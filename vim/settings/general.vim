@@ -6,6 +6,7 @@ set shiftwidth=2
 
 " Colorscheme settings
 set termguicolors
-set background=light
-colorscheme gruvbox
+set background=dark
+colorscheme gruvbox 
+
 
